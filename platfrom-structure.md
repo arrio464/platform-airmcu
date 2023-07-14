@@ -1,4 +1,5 @@
-platform.json
+# structure for platform.json
+```
 ├── name: 开发板的名称，必须是唯一的
 ├── title: 开发板的标题，用于显示
 ├── description: 开发板的描述，用于介绍
@@ -33,5 +34,5 @@ platform.json
         ├── type: package的类型，比如toolchain或framework
         ├── optional: package是否是可选的，默认为false
         └── version: package直接使用版本控制系统（VCS）地址作为版本号
-
+```
 
