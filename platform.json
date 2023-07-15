@@ -19,22 +19,22 @@
       "arduino": {
         "package": "framework-arduino-air001",
         "script": "builder/frameworks/arduino.py"
-      }
+      }      
     },
     "packages": {
        "tool-airisp": {
         "type": "uploader",
-        "optional": true,
+        "optional": false,
         "version": "https://github.com/Air-duino/AirISP.git"
        },
        "framework-arduino-airmcu": {
         "type": "framework",
-        "optional": true,
+        "optional": false,
         "version": "https://github.com/Air-duino/Arduino-AirMCU.git"
        },
         "toolchain-air001": {
-        "type": "toolchain",     // 对不起，我没找到完整工具链
-        "owner": "null",   // 对不起，我没找到完整工具链
+        "type": "toolchain",    
+        "owner": "custom",   
         "version": "null" // 对不起，我没找到完整工具链
         }
     }
