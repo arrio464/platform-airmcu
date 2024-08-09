@@ -35,7 +35,7 @@
         "toolchain-air001": {
         "type": "toolchain",    
         "owner": "custom",   
-        "version": "null" // 对不起，我没找到完整工具链
+        "version": "null"
         }
     }
   }
